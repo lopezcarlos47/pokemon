@@ -1,0 +1,13 @@
+.uno{
+	border: 1px solid;
+	color: black;
+	width: 300px;
+	height:150px;
+}
+p{
+	border: 1px solid;
+	color: black;
+}
+.uno{
+	color: red;
+}
