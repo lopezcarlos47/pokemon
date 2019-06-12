@@ -9,18 +9,25 @@
 	  <link rel="icon" href="https://vignette.wikia.nocookie.net/the-pokemon-sun-and-moon/images/4/4c/Pokeball.png/revision/latest?cb=20161123053945">
 	
 </head>
-<body ng-controller="pokedex">
+<body class="fondo" ng-controller="pokedex">
 	<center>
-		<div class="container uno">
-		<h1>Pokedex</h1>
+		<div class="container-fluir hola">
+			<br>
+			<div class="row">
+				<div class="col-md-2 "><img  class="imagen" src="1.jpg"></div>
+				<div class="col-md-6"><h1>Pokedex</h1></div>
+				<div class="col-md-4"><img class="imagen" src="13.jpg"></div>
 		</div>
-	<div class="container">
+		</div>
+		<br><br>
+	<div class="container dos">
 		<div class="row">
-			<div class="col-md-6" ng-repeat="poke in pokedexB">
+			<div class="col-md-4" ng-repeat="poke in pokedexB">
 				<div class="uno">
-					<img src="{{poke.data.sprites.front_default}}">
-				<p>{{poke.data.name}}</p>
-			</div>
+					<img src="{{poke.data.sprites.front_default}}" >
+				</div>
+				<div class="carlos"><p>{{poke.data.name}}</p></div>
+				<br><br>
 			</div>
 		</div>
 	</div>
@@ -29,6 +36,6 @@
 	<!-- local script -->
 	<script src="js/script.js"></script>
 	<script src="lib/bootstrap/js/bootstrap.js"></script>
-	</center>	
+	
 </body>
 </html>

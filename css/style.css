@@ -1,13 +1,42 @@
+.fondo{
+	background: #8A8A83     ;
+
+}
 .uno{
-	border: 1px solid;
-	color: black;
+	background: #E3D7D4    ;
+	border-radius: 100% ;
+	box-shadow: 5px 5px 0px black;
 	width: 300px;
-	height:150px;
+	height:300px;
+	padding: 100px;
+	border: 2px solid black;
+
 }
-p{
+.uno img{
+	width: 200px;
+	height: 200px;
+	margin: -40px;
+}
+
+.carlos{
+	border-radius: 10% ;
+	box-shadow: 1px 1px 0px black;
+	color: white;
+	width: 210px;
+	height:30px;
+	background: #4C2419  ;
+}
+.hola{
 	border: 1px solid;
-	color: black;
+	background: black;
+	height: 150px;
 }
-.uno{
-	color: red;
+h1{
+	color: white;
+}
+.imagen{
+	height: 100px;
+	width: 250px;
+	border-radius: 100% ;
+	box-shadow: 5px 5px 0px black;
 }
